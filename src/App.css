@@ -1,0 +1,36 @@
+*{
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+line-height: 1.4;
+}
+a{
+  text-decoration:none;
+}
+.style{
+display: flex;
+padding: 39px 91px;
+justify-content: space-between;
+margin: 72px;
+}
+ 
+.chck{
+  display: flex;
+}
+
+.completed-task{
+  text-decoration: line-through;
+  display: flex;
+}
+
+button{
+  background: '#ff0000';
+  border: 'none';
+  padding: '4px 8px';
+  border-radius: '10px';
+  cursor: 'pointer';
+  float: 'right'
+}
